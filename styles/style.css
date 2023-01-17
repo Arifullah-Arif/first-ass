@@ -114,6 +114,14 @@ padding-top: 250px;
   /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);; */
   padding-bottom: 25px;
 }
+.positive .call button{
+  height: 40px;
+  width: 87px;
+  border-radius: 3px;
+  border-style: none;
+  color: rgb(39, 153, 199);
+  font-weight: bolder;
+}
 /* FOOTER SECTION */
 footer{
   background-color: black;
@@ -149,8 +157,71 @@ footer li img{
 display:inline-block
 }
 /* SUBSCRIBE SECTION */
-.subscribe{
- display: block;
- margin-left: 700px;
- margin-bottom: 400px;
+ footer{
+  display: flex;
+  color:whitesmoke;
+  justify-content: space-between;
+  margin-top: 150px;
+  border: 5px solid firebrick;
+  width: auto;
+  height: 350px;
+  border-style: none;
+ 
+   
+ 
+ 
+ }
+ footer input{
+  background-color: black;
+   border-color: white;
+    border-style: solid;
+ }
+ footer button{
+  border-radius: 5px;
+  width: 80px;
+ }
+/* LEFT SECTION */
+ .left{
+  border: 3px solid rebeccapurple;
+  width: 650px;
+  margin-left: 200px;
+  border-style: none;
+  text-align: left;
+ }
+
+footer #border{
+  border: 20px solid rebeccapurple;
+  margin-right: 250px;
+  border-style: none;
 }
+#email-num ul {
+  display: block;
+  
+  
+}
+
+/* RIGHT SECTION */
+ .right{
+ margin-top: 90px;
+ margin-right: 140px;
+ gap: 25px;
+ 
+
+ }
+ .right h1{
+  font-family: sans-serif;
+ }
+ .right input{
+  height: 40px;
+  margin-bottom: 18px;
+  border-style: none;
+ 
+ }
+ /* BUTTON */
+ .btn-sub{
+  height: 40px;
+  background-color:rgb(16, 134, 180) ;
+  color: white;
+ }
+ 
+  
